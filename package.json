@@ -1,0 +1,22 @@
+{
+  "name": "opentelemetry-starting-out",
+  "version": "1.0.0",
+  "description": "``` docker run -d -p 9411:9411 --name zipkin openzipkin/zipkin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.0.3",
+    "@opentelemetry/auto-instrumentations-node": "^0.26.0",
+    "@opentelemetry/exporter-zipkin": "^0.9.0",
+    "@opentelemetry/node": "^0.9.0",
+    "@opentelemetry/plugin-express": "^0.8.0",
+    "@opentelemetry/plugin-http": "^0.9.0",
+    "@opentelemetry/sdk-node": "^0.26.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
